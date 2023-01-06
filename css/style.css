@@ -73,7 +73,7 @@ section {
     padding-top: 300px;
 }
 
-.failer-title {
+.title-primary {
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 24px;
@@ -84,6 +84,39 @@ section {
 .failer-opint {
     margin-top: 16px;
 }
-span{
+
+.failer .description-primary {
+    padding-bottom: 8px;
+}
+
+span {
     color: red;
+}
+
+/* my plans */
+.plans {
+    text-align: center;
+    margin: 0 160px;
+    padding-top: 130px;
+    
+}
+
+.plans-items {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+
+}
+
+.plans-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+    color: #151414;
+}
+
+.plans-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
 }
