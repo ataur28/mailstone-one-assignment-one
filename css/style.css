@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Work Sans'; */
+}
+
+section {
+    margin-top: 130px;
+}
+
+/* header */
+.header {
+    width: 100%;
+    height: 700px;
+    background-color: lightgray;
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+.header-position {
+    padding-right: 140px;
+    padding-left: 400px;
+    padding-top: 180px;
+    text-align: right;
+
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 24px;
+    color: #151414;
+}
+
+.description-primary {
+    color: #444343;
+
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px;
+    background-color: #f53232;
+    border: 1px solid #f53232;
+    margin-top: 32px;
+    border-radius: 5px;
+
+}
+
+/* My failures */
+.failer {
+    margin: 0 160px;
+    display: flex;
+    gap: 100px;
+}
+
+.failer-images {
+    width: 550px;
+    height: 700.3px;
+    margin-left: 100px;
+}
+
+.failur-description {
+    width: 420px;
+    height: 400px;
+    padding-top: 300px;
+}
+
+.failer-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+    color: #151414;
+
+}
+
+.failer-opint {
+    margin-top: 16px;
+}
+span{
+    color: red;
+}
