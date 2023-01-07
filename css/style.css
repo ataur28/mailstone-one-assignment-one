@@ -115,9 +115,46 @@ span {
     font-size: 30px;
     margin-bottom: 16px;
     color: #151414;
+    margin-top: 24px;
 }
 
 .plans-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* life style */
+
+.life-style {
+    text-align: center;
+    margin: 0 140px;
+    padding-top: 130px;
+
+}
+
+.life-style-header-description {
+    font-weight: 500;
+    font-size: 30px;
+    color: #737272;
+}
+
+.life-style-items {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+
+}
+
+.life-style-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+    color: #151414;
+    margin-top: 24px;
+}
+
+.life-style-description {
     font-weight: 500;
     font-size: 25px;
     color: #737272;
