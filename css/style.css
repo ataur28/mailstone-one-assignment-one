@@ -131,7 +131,7 @@ span {
     background-image: url(../images/watch.png), url(../images/gradient2.png);
     background-size: cover;
     /* background-blend-mode: multiply; */
-    background-blend-mode:hard-light;
+    background-blend-mode: hard-light;
     border-radius: 8px;
 }
 
@@ -219,5 +219,14 @@ footer {
     background-color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
-    
+
+}
+
+footer a img {
+    margin-top: 32px;
+    margin-right: 18px;
+}
+
+footer a {
+    text-decoration: none;
 }
